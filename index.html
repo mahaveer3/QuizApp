@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="main">
+        <header class="header">
+            <a href="index.html" class="logo">Quiz</a>
+
+            <nav class="navbar">
+                <a href="#" class="active">Home</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+                <a href="#">Services</a>
+            </nav>
+        </header>
+
+        <div class="container">
+            <section class="quiz-section">
+                <div class="quiz-box">
+                    <h1>Programming Quiz</h1>
+                    <div class="quiz-header">
+                        <span>Quiz Website</span>
+                        <span class="header-score">Your Total Marks: 0/5 </span>
+                    </div>
+                    <h2 class="question-text">1. In socket programming, what does the getInetAddress() method in the
+                        Socket class return?</h2>
+
+                    <div class="option-list">
+                        <!-- <div class="option">
+                            <span>1.The client's local address</span>
+                        </div>
+                        <div class="option">
+                            <span>2.The server's local address </span>
+                        </div>
+                        <div class="option">
+                            <span>3. The client's remote address </span>
+                        </div>
+                        <div class="option">
+                            <span>4.The server's remote address</span>
+                        </div> -->
+                    </div>
+
+                    <div class="quiz-footer">
+                        <span class="question-total">1 of 5 Question</span>
+                        <button class="next-btn">Next</button>
+                    </div>
+                </div>
+
+                <div class="result-box">
+                    <h2>Your Score</h2>
+                    <div class="percentage-container">
+                        <div class="circular-progress">
+                            <span class="progress-value">0%</span>
+                        </div>
+                        <span class="score-text">Your score 0 out of 5 </span>
+                    </div>
+                    <div class="buttons">
+                        <button class="tryAgain-btn">Try Again</button>
+                        <button class="goHome-btn">Home</button>
+
+
+                    </div>
+                </div>
+            </section>
+            <section class="home">
+                <div class="home-content">
+                    <h1>Quiz App</h1>
+                    <p></p>
+                    <button class="start-btn">Start-Quiz</button>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <div class="popup-info">
+        <h2>Quiz Guide</h2>
+        <span class="info">1. Do not Copy the answers </span>
+        
+
+        <div class="btn-group">
+            <button class="info-btn exit-btn">Exit Quiz</button>
+            <a href="#" class="info-btn continue-btn">Continue</a>
+        </div>
+    </div>
+
+
+    <script src="questions.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
